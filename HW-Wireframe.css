@@ -1,0 +1,107 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+    text-color: #000000;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+  }
+  
+  header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #ebebeb;
+    background: #ccc;
+    border: 2px solid #5111c1;
+
+  }
+
+  nav {
+    color: #ebebeb;
+    padding: 40%;
+  }
+  
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgb(255, 255, 255);
+    color: #ebebeb;
+  }
+
+  article {
+    float: left;
+    width: 40%;
+    height: 250px;
+    color: #ebebeb;
+
+  }
+
+  aside {
+    float: right;
+    width: 40%;
+    height: 250px;
+    padding: 20px;
+    margin-left: 30px;
+    background: #fff;
+    border: 2px solid rgb(248, 8, 8);
+  }
+  
+  footer {
+    padding: 40px;
+    clear: both;
+    background: #ccc;
+    border: 2px solid rgb(20, 193, 83);
+  }
+  
+  h1, h2, h3 {
+    float: left;
+    width: 40%;
+    padding: 10%;
+    color: rgb(14, 13, 13);
+    background: rgb(209, 16, 16);
+
+
+  }
+
+  #artical {
+    float: left;
+    width: 40%;
+    padding: 10%;
+    color: #fff;
+    background: #eee;
+
+  }
+
+  #section {
+    float: left;
+    width: 40%;
+    padding: 10%;
+    color: #fff;
+    background: #666;
+  }
+  
+  
+  #full {
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    background: #eee;
+  }
+  
+  #division {
+    padding: 20px;
+    margin-top: 20px;
+    background: #6ea3da;
+  }
+  
+
+  
