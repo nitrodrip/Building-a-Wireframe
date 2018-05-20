@@ -40,7 +40,7 @@
     float: left;
     width: 50%;
     height: 250px;
-    color: #ebebeb;
+    color: #ff0000;
     border: 2px solid #5111c1;
     
   }
@@ -87,7 +87,7 @@
     
 }
 
-  #section {
+#section {
     float: left;
     width: 10%;
     padding: 10%;
@@ -96,14 +96,14 @@
   }
   
   
-  #full {
+#full {
     width: 100%;
     overflow: auto;
     clear: both;
     background: #eee;
   }
   
-  #division {
+#division {
     padding: 20px;
     margin-top: 20px;
     background: #6ea3da;
